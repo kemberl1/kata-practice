@@ -402,6 +402,13 @@ vertical-align: middle;
   line-height: 50px;
 }
 
+.menu-nav__item--active{
+color:  #7E7E82;
+}
+.menu-nav__item--active:before {
+opacity: 1;
+}
+
 .menu-footer{
 display: flex;
 flex-direction: column;
@@ -431,5 +438,11 @@ justify-content: end;
 }
 
 .menu__lang-link--current{
-color: grey;
+color: #7E7E82;
+}
+
+@media (max-height:768px) {
+  .menu {
+  height: inherit;
+  }
 }
