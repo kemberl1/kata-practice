@@ -333,7 +333,6 @@ body {
 .menu{
   max-width: 320px;
   height: 100vh;
-  min-height: 750px;
   background-color: #FFFFFF;
   box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),-2px 0px 4px 0px rgba(69, 79, 126, 0.02);
   padding: 18px 24px;
@@ -362,7 +361,7 @@ body {
 .menu-header{
 display: flex;
 align-items: center; 
-margin-bottom: 46px;
+margin-bottom: 35px;
 }
 
 .menu-header__button img{
@@ -370,10 +369,8 @@ vertical-align: middle;
 }
 
 .menu-nav{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 2;
+  flex-grow: 1;
+  margin-bottom: 20px;
 }
 
 .menu-nav__item:before {
@@ -391,10 +388,6 @@ vertical-align: middle;
 .menu-nav__item:hover::before{
   transform: translate(-24px, 8px); 
   opacity: 1;
-}
-
-.menu-nav__item{
-  display: flex;
 }
 
 .menu-nav__link {
