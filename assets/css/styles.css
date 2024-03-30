@@ -433,9 +433,3 @@ justify-content: end;
 .menu__lang-link--current{
 color: #7E7E82;
 }
-
-@media (max-height:768px) {
-  .menu {
-  height: inherit;
-  }
-}
