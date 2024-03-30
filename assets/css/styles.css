@@ -481,8 +481,7 @@ vertical-align: middle;
   position: relative;
   display: flex;
   flex-direction: column;
-  flex: 1 1 auto;
-  margin-bottom: 20px;
+  flex-grow: 2;
 }
 
 .menu-nav__item:before {
