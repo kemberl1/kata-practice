@@ -137,7 +137,7 @@ body {
   transform: translate(-16px, 0);
 }
 
-.service__navigation {
+.navigation-list {
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
@@ -193,7 +193,7 @@ body {
   display: none;
 }
 
-.service__button {
+.button__show-more {
   display: inline-block;
   position: relative;
   vertical-align: middle;
@@ -208,7 +208,7 @@ body {
   margin-left: 32px;
 }
 
-.service__button::before {
+.button__show-more::before {
   position: absolute;
   content: url("../img/img__body/show-more-button.svg");
   transform: translateX(-24px);
