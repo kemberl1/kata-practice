@@ -8,6 +8,8 @@ body {
   background-color: #F8F8F8;
 }
 
+
+
 [class*="__container"] {
   padding: 0px 16px;
   max-width: 1120px;
@@ -208,7 +210,7 @@ body {
   margin-left: 32px;
 }
 
-.service__button::before {
+.button__show-more::before {
   position: absolute;
   content: url("../img/img__body/show-more-button.svg");
   transform: translateX(-24px);
