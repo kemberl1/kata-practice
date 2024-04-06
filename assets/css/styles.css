@@ -7,14 +7,12 @@ body {
   font-family: 'TT Lakes', sans-serif;
   background-color: #F8F8F8;
 }
-section{
-  margin-bottom: 24px;
-}
 
 [class*="__container"] {
   padding: 0px 16px;
   max-width: 1120px;
   margin: 0 auto;
+  margin-bottom: 24px;
 }
 
 .button {
@@ -228,9 +226,6 @@ section{
 
   [class*="__container"] {
     padding: 0px 24px;
-  }
-
-  section{
     margin-bottom: 32px;
   }
 
@@ -278,9 +273,6 @@ section{
     position: relative;
     padding: 0 20px;
     padding-top: 42px;
-  }
-  
-  section{
     margin-bottom: 50px;
   }
 
