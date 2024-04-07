@@ -265,6 +265,11 @@ body {
 }
 
 @media(min-width: 1120px) {
+  [class*="__container"] {
+    padding: 0px 24px;
+    margin-bottom: 32px;
+  }
+
   .header {
     margin-bottom: initial;
   }
@@ -330,4 +335,10 @@ body {
   .service__navigation-link:first-child {
     margin-left: 0;
   }
+}
+
+@media (min-width: 1120px) {
+  [class*="__container"] {
+    padding: 0px 32px;
+  }  
 }
