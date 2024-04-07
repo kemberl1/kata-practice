@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="ремонт, диагностика, обслуживание, техника">
-  <meta name="description"
-    content="Услуги и сервисы: ремонт техники, диагностика, замена дисплея, замена програмного обеспечения">
+  <meta name="description" content="Услуги и сервисы: ремонт техники, диагностика, замена дисплея, замена програмного обеспечения">
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="stylesheet" href="./assets/css/fonts.css">
@@ -20,9 +20,9 @@
       <h2 class="brands__title-text">Ремонт техники различных брендов</h2>
     </header>
 
-    <div class="brands__cards swiper__container">
+    <div class="brands__cards swiper swiper__container">
 
-      <ul class="brands__cards-list swiper-wrapper navigation-list">
+      <ul class="brands__cards-list swiper-wrapper">
 
         <li class="brands__cards-item swiper-slide">
           <a class="brands__cards-link" href="#">
@@ -93,13 +93,13 @@
       </ul>
       
       <div class="brands__swiper swiper-pagination"></div>
-      <button class="brands__button brands__button--hidden button__show-more">
+      <button class="brands__button brands__button--open brands__button--close button__show-more">
         Показать все
       </button>
     </div>
-
   </section>
-
+<script src="./assets/js/swiper-bundle.min.js"></script>
+<script src="./assets/js/main.js"></script>
 </body>
 
 </html>
