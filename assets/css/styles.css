@@ -30,8 +30,6 @@ body {
   margin-bottom: 24px;
 }
 
-
-
 .header__container {
   display: flex;
   min-height: 88px;
@@ -267,7 +265,6 @@ body {
   .header {
     margin-bottom: initial;
   }
-
   .service__container {
     position: relative;
     padding: 0 20px;
@@ -335,7 +332,9 @@ body {
 /* service-cards */
 
 .brands__title {
-  padding: 16px 0 16px 0;
+  padding: 16px;
+  background: linear-gradient(270.00deg, rgb(248, 248, 248),rgb(255, 255, 255) 98.614%);
+  margin-bottom: 16px;
 }
 
 .brands__title-text{
@@ -348,24 +347,20 @@ body {
   text-transform: uppercase;
 }
 
-.swiper__container{
-  padding: 0;
+.brands__cards-list{
+  position: relative;
+  gap: 18px;
 }
 
 .brands__cards::after{
   content: "";
   position: absolute;
-  z-index: 10;
+  z-index: 100;
   top: 0;
   right: 0;
-  width: 24px;
+  width: 20px;
   height: 100%;
   background: linear-gradient(to right, rgba(248, 248, 248, 0), rgb(248, 248, 248));
-}
-
-.brands__cards-list{
-  gap: 18px;
-  padding: 0 0 16px 16px;
 }
   
 
@@ -395,12 +390,29 @@ body {
 
 
 @media(min-width: 768px){
+.brands__title{
+margin-bottom: 24px;
+}
 .brands__cards-link{
   width: auto;
 }
 .brands__cards-list{
-width: auto;
+width: 100%;
+transform: none;
 display: grid;
-grid-template-columns: repeat(auto-fill, 220px);
+grid-column-gap: 24px;
+grid-row-gap: 16px;
+grid-template-columns: repeat(auto-fill, 224px);
 }
 }
+
+@media(min-width: 1120px){
+  .brands__title {
+    padding: 16px 32px;
+    background: linear-gradient(270.00deg, rgb(248, 248, 248),rgb(255, 255, 255) 98.614%);
+    margin-bottom: 24px;
+  }
+  .brands__cards-list{
+  grid-template-columns: repeat(auto-fill, 240px);
+  }
+  }
