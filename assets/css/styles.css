@@ -404,7 +404,7 @@ body {
   right: 0;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-image: url('./assets/img/img__brands/ic_go.svg');
+  background-image: url('../img/img__brands/ic_go.svg');
 }
 
 
