@@ -436,7 +436,7 @@ body {
     overflow: hidden;
     margin-bottom: 30px;
     transition-property: max-height;
-    transition-duration: 2s;
+    transition-duration: 3s;
     transition-timing-function: ease-in;
   }
 
