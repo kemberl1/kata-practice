@@ -396,6 +396,7 @@ body {
   border-radius: 6px;
 }
 
+
 .brands__cards-link::after {
   content: "";
   position: absolute;
@@ -411,6 +412,8 @@ body {
   transform: scale(1.1);
   transition: 0.9s;
 }
+
+
 
 @media (min-width: 768px) {
   .swiper-pagination {
