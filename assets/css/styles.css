@@ -399,14 +399,18 @@ body {
 .brands__cards-link::after {
   content: "";
   position: absolute;
+  right: 16px;
   width: 40px;
   height: 40px;
-  right: 0;
-  top: 50%;
-  transform: translate(-50%, -50%);
   background-image: url('../img/img__brands/ic_go.svg');
+  transform: scale(1.0);
+  transition: 0.9s;
 }
 
+.brands__cards-link:hover::after{
+  transform: scale(1.1);
+  transition: 0.9s;
+}
 
 @media (min-width: 768px) {
   .swiper-pagination {
