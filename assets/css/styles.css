@@ -121,6 +121,7 @@ body {
 }
 
 .service__title {
+  position: relative;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.6px;
@@ -143,7 +144,6 @@ body {
   overflow-x: auto;
   white-space: nowrap;
   width: 100vw;
-  transform: translateX(-16px);
   margin-bottom: 24px;
 }
 
@@ -157,7 +157,6 @@ body {
 .service__navigation-link:first-child {
   border-color: rgb(184, 255, 236);
   background-color: #FFFFFF;
-  margin-left: 16px;
 }
 
 .service__navigation-link a {
@@ -288,8 +287,8 @@ body {
   .header__container {
     position: absolute;
     z-index: 1;
-    top: 2.7%;
-    left: 59.8%;
+    top: 1.5vw;
+    left: 59.8vw;
     padding: 0 28px;
   }
 
@@ -337,8 +336,3 @@ body {
   }
 }
 
-@media (min-width: 1120px) {
-  [class*="__container"] {
-    padding: 0px 32px;
-  }  
-}
